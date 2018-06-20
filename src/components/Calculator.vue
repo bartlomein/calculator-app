@@ -85,7 +85,7 @@ export default {
     },
     animation(id){
       let item = document.getElementById(id);
-      console.log(item)
+
       item.classList.add("button-clicked");
       setTimeout(() => {
         this.removeAnimation(id);
@@ -96,7 +96,7 @@ export default {
     removeAnimation(id){
       let itemToRemove = document.getElementById(id);
       itemToRemove.classList.remove("button-clicked");
-      console.log(itemToRemove);
+
     },
 
   }
