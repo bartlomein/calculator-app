@@ -87,6 +87,7 @@ export default {
       let item = document.getElementById(id);
 
       item.classList.add("button-clicked");
+      
       setTimeout(() => {
         this.removeAnimation(id);
       }, 500);
@@ -105,6 +106,7 @@ export default {
 
 <style scoped>
 .calculator {
+  box-shadow: 10px 10px 10px gray;
   margin: 0 auto;
   width: 400px;
   font-size: 40px;
